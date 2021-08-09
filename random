@@ -1,0 +1,7 @@
+count=$1
+numbers=""
+for ((i=1; i<$count; i++))
+do
+	numbers+="$RANDOM "
+done
+echo $numbers$RANDOM
